@@ -1,3 +1,13 @@
+# [1.1.0](https://gitlab.com/fe-test1/git-demo/compare/v1.0.1...v1.1.0) (2022-09-30)
+
+
+### Features
+
+* 添加changelog ([6dd86d3](https://gitlab.com/fe-test1/git-demo/commit/6dd86d34c3eeba33d23a4554253bd03de455187e))
+* lint fix ([5b6294f](https://gitlab.com/fe-test1/git-demo/commit/5b6294f2694ab35e790108018d4013bfa00ab553))
+
+
+
 ## [1.0.1](https://gitlab.com/fe-test1/git-demo/compare/bee174c9b5cdc2560c6f48b001526e02e29393f9...v1.0.1) (2022-09-30)
 
 
