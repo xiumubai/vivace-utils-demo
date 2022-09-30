@@ -11,7 +11,7 @@ import clear from 'rollup-plugin-clear'
 import json from '@rollup/plugin-json' // 支持在源码中直接引入json文件，不影响下面的
 import { name, version, author } from '../package.json'
 
-const pkgName = 'viavcedemo'
+const pkgName = 'vivacedemo'
 // 打包处理的文件，添加的备注信息
 const banner =
   '/*!\n' +

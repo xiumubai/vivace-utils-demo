@@ -1,3 +1,5 @@
+本教程包含一下内容：
+
 - 初始化项目，创建合理的目录结构
 - 设置基于编辑器的代码统一规范 .editorconfig [vscode的配置](https://link.juejin.cn?target=https%3A%2F%2Fdocs.microsoft.com%2Fzh-cn%2Fvisualstudio%2Fide%2Fcreate-portable-custom-editor-options%3Fview%3Dvs-2022)
 - 配置 eslint 和 pretter 统一代码风格

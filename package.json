@@ -1,5 +1,5 @@
 {
-  "name": "vivace-utils-demo",
+  "name": "vivacedemo",
   "version": "1.0.0",
   "description": "npm包规范示例",
   "main": "dist/vivacedemo.umd.min.js",
@@ -15,7 +15,14 @@
     "fix": "eslint src --fix",
     "lint-staged": "lint-staged",
     "test": "jest",
-    "test:c": "jest --coverage"
+    "test:c": "jest --coverage",
+    "major": "npm version major -m 'build: update major'",
+    "minor": "npm version minor -m 'build: update minor'",
+    "patch": "npm version patch -m 'build: update patch'",
+    "pub": "npm run build && npm publish --access=public",
+    "pub:major": "npm run major && npm publish --access=public",
+    "pub:minor": "npm run minor && npm publish --access=public",
+    "pub:patch": "npm run patch && npm publish --access=public"
   },
   "jest": {
     "preset": "rollup-jest"
