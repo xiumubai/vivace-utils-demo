@@ -22,7 +22,9 @@
     "pub": "npm run build && npm publish --access=public",
     "pub:major": "npm run major && npm publish --access=public",
     "pub:minor": "npm run minor && npm publish --access=public",
-    "pub:patch": "npm run patch && npm publish --access=public"
+    "pub:patch": "npm run patch && npm publish --access=public",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "createlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "jest": {
     "preset": "rollup-jest"
@@ -67,6 +69,7 @@
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@rollup/plugin-replace": "^4.0.0",
     "commitizen": "^4.2.5",
+    "conventional-changelog-cli": "^2.2.2",
     "cz-customizable": "^7.0.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
